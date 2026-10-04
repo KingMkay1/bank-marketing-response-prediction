@@ -15,8 +15,8 @@
   },
   "seed": 42,
   "recall_target": 0.6,
-  "selected_model": "Random forest (extra)",
-  "runtime_s": 25.4,
+  "selected_model": "Random forest (additional)",
+  "runtime_s": 35.8,
   "python": "3.13.3",
   "machine": "Intel64 Family 6 Model 156 Stepping 0, GenuineIntel",
   "synthetic": false

@@ -124,7 +124,7 @@ def main():
         "Decision tree": [DecisionTreeClassifier(max_depth=d, min_samples_leaf=l, class_weight="balanced",
                                                  random_state=SEED)
                           for d in [3, 5, 8] for l in [20, 50, 100]],
-        "Random forest (extra)": [RandomForestClassifier(n_estimators=300, max_depth=d, min_samples_leaf=20,
+        "Random forest (additional)": [RandomForestClassifier(n_estimators=300, max_depth=d, min_samples_leaf=20,
                                                          class_weight="balanced_subsample", n_jobs=-1,
                                                          random_state=SEED) for d in [8, 12]],
     }
